@@ -55,3 +55,6 @@ utils/ # Helper functions
 ### cd tele-health-backend
 ### npm install
 ### npm run start
+
+
+## Note : Make sure the backend server is running locally to view the appointment list and etc....
