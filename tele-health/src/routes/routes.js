@@ -1,4 +1,4 @@
-export const paitentRoutes = {
+export const patientRoutes = {
   myAppointments: "/",
   schedule:'/schedule',
   prescriptions:'/prescriptions',

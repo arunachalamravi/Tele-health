@@ -4,7 +4,7 @@ import { InputField } from "../../atoms";
 import { ScheduleStyle } from "./style";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { paitentRoutes } from "../../routes";
+import { patientRoutes } from "../../routes";
 const doctorList = [
   "Dr. John Smith",
   "Dr. Emily Johnson",
@@ -117,7 +117,7 @@ export const DoctorForm = () => {
         );
 
         if (res?.data?.success === true) {
-          navigate(paitentRoutes?.myAppointments);
+          navigate(patientRoutes?.myAppointments);
           clearField()
         } else {
           console.error("Error:", res?.data?.errors || "Unknown error");
@@ -151,6 +151,7 @@ export const DoctorForm = () => {
           onChange={(e) => handleChange("doctor", e.target.value)}
           fullWidth
           sx={{ ...ScheduleStyle?.inputSx }}
+          placeholder={'select as doctor'}
           isError={formData?.error.doctor}
           errorMessage={formData?.error.doctor}
         >

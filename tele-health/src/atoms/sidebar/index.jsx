@@ -1,7 +1,7 @@
 import { Box, List, ListItemButton, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { sidebar_style } from "./style";
-import { paitentRoutes } from "../../routes";
+import { patientRoutes } from "../../routes";
 import {
   ScheduleIcon,
   PrescriptionIcon,
@@ -22,25 +22,25 @@ export const SideBar = (props) => {
     {
       icon: <AppointmentListIcon />,
       seletedIcon: <AppointmentListIcon rootStyle={{ color: "#1c212d" }} />,
-      path: paitentRoutes?.myAppointments,
+      path: patientRoutes?.myAppointments,
       title: "My Appointments",
     },
     {
       icon: <ScheduleIcon />,
       seletedIcon: <ScheduleIcon rootStyle={{ color: "#858786" }} />,
-      path: paitentRoutes?.schedule,
+      path: patientRoutes?.schedule,
       title: "Schedule Appointment",
     },
     {
       icon: <PrescriptionIcon />,
       seletedIcon: <PrescriptionIcon rootStyle={{ color: "#858786" }} />,
-      path: paitentRoutes?.prescriptions,
+      path: patientRoutes?.prescriptions,
       title: "My Prescriptions",
     },
     {
       icon: <GoogleMeet />,
       seletedIcon: <GoogleMeet rootStyle={{ color: "#858786" }} />,
-      path: paitentRoutes?.video,
+      path: patientRoutes?.video,
       title: "Video Call",
     },
   ];

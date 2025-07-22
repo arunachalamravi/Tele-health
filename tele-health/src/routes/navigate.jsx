@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { paitentRoutes } from "./routes";
+import { patientRoutes } from "./routes";
 import MyAppoinmentPage from "../pages/appointment";
 import { RootLayout } from "../components/rootlayout";
 import SchedulePage from "../pages/schedule";
@@ -12,19 +12,19 @@ const router = createBrowserRouter([
 
     children: [
       {
-        path: paitentRoutes?.myAppointments,
+        path: patientRoutes?.myAppointments,
         element: <MyAppoinmentPage />, 
       },
       {
-        path: paitentRoutes?.schedule,
+        path: patientRoutes?.schedule,
         element: <SchedulePage />
       },
       {
-        path: paitentRoutes?.prescriptions,
+        path: patientRoutes?.prescriptions,
         element: <MyPerscriptionPage />
       },
       {
-        path: paitentRoutes?.video,
+        path: patientRoutes?.video,
         element: <MeetPage />
       }
     ],
