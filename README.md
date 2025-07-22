@@ -2,6 +2,7 @@
 
 A full-stack web application built with **React (Vite)** for the frontend and **Node.js + Express** for the backend.  
 The app includes reusable components like **Sidebar, AppBar, Table, InputField, Search, and Tab Components**, styled with **Material UI (MUI)** and a **minimal color theme**.  
+The frontend runs on port **5173**
 The backend connects to the frontend via REST APIs and runs on port **5000**.
 
 ---
@@ -32,10 +33,10 @@ utils/ # Helper functions
 ## Installation and Setup
 
 ### Clone the Repository
-git clone https://github.com/arunachalamravi/Tele-health.git
-cd tele-health
-npm install
-npm run dev
+## git clone https://github.com/arunachalamravi/Tele-health.git
+## cd tele-health
+## npm install
+## npm run dev
 
 ---
 
@@ -51,7 +52,7 @@ npm run dev
 ## Installation and Setup
 
 ### Clone the Repository
-git clone https://github.com/arunachalamravi/Tele-health.git
-cd tele-health-backend
-npm install
-npm run start
+## git clone https://github.com/arunachalamravi/Tele-health.git
+## cd tele-health-backend
+## npm install
+## npm run start
