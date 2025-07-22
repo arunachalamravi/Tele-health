@@ -1,4 +1,4 @@
-# Tele-Health Application
+# Tele-Health Paitent portal
 
 A full-stack web application built with **React (Vite)** for the frontend and **Node.js + Express** for the backend.  
 The app includes reusable components like **Sidebar, AppBar, Table, InputField, Search, and Tab Components**, styled with **Material UI (MUI)** and a **minimal color theme**.  
@@ -33,10 +33,10 @@ utils/ # Helper functions
 ## Installation and Setup
 
 ### Clone the Repository
-## git clone https://github.com/arunachalamravi/Tele-health.git
-## cd tele-health
-## npm install
-## npm run dev
+### git clone https://github.com/arunachalamravi/Tele-health.git
+### cd tele-health
+### npm install
+### npm run dev
 
 ---
 
@@ -52,7 +52,7 @@ utils/ # Helper functions
 ## Installation and Setup
 
 ### Clone the Repository
-## git clone https://github.com/arunachalamravi/Tele-health.git
-## cd tele-health-backend
-## npm install
-## npm run start
+### git clone https://github.com/arunachalamravi/Tele-health.git
+### cd tele-health-backend
+### npm install
+### npm run start
