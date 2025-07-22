@@ -1,0 +1,1 @@
+export { paitentRoutes } from './routes';
