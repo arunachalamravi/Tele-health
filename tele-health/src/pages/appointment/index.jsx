@@ -29,7 +29,7 @@ const MyAppoinmentPage = () => {
 
   const fetchAppointments = async () => {
     try {
-      const res = await axios.get(`https://tele-health-git-master-arunachalams-projects-da6a402a.vercel.app/api/appointments`);
+      const res = await axios.get("http://localhost:5000/api/appointments");
       console.log(res, "res");
       setAppointmentList(res?.data?.data || []);
     } catch (err) {
